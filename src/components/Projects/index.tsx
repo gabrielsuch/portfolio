@@ -2,11 +2,17 @@ import {Container} from "./style"
 import {useState} from "react"
 import CardProjects from "../CardProjects/index"
 
-import hamburgueria from "../../assets/hamburgueria.png"
-import adm_de_eventos from "../../assets/adm_de_eventos.png"
-import kenziehub from "../../assets/kenziehub.png"
-import wedo from "../../assets/wedo.png"
-import simple_budget from "../../assets/simple_budget.png"
+// import hamburgueria from "../../assets/hamburgueria.png"
+// import adm_de_eventos from "../../assets/adm_de_eventos.png"
+// import kenziehub from "../../assets/kenziehub.png"
+// import wedo from "../../assets/wedo.png"
+// import simple_budget from "../../assets/simple_budget.png"
+
+const hamburgueria = require("../../assets/hamburgueria.png")
+const adm_de_eventos = require("../../assets/adm_de_eventos.png")
+const kenziehub = require("../../assets/kenziehub.png")
+const wedo = require("../../assets/wedo.png")
+const simple_budget = require("../../assets/simple_budget.png")
 
 
 const Projects = () => {
